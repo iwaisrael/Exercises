@@ -182,12 +182,12 @@ public class Main
 	public static Integer[][] fillMatrix(int l, int c)
 	{
 	    Integer [][] matrix = new Integer[l][c];
-        for(int i = 0; i < l; i++) {
-            for(int j = 0; j < c; j++) {
-                // read information from somewhere
-                matrix[i][j] = 10000*(i+j)/(1+i+j);
-            }
-        }
-        return matrix;
+	    for(int i = 0; i < l; i++) {
+	    	for(int j = 0; j < c; j++) {
+	    	// read information from somewhere
+	    	matrix[i][j] = 10000*(i+j)/(1+i+j);
+	    	}
+	    }
+	    return matrix;
 	}
 }
